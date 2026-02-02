@@ -20,7 +20,7 @@ html, body {
   position: absolute;
   top: 110%;
   transform: rotate(-45deg);
-  filter: drop-shadow(0 0 5px rgba(255, 77, 109, 0.4));
+  filter: drop-shadow(0 0 8px rgba(0, 191, 255, 0.6)); /* Синеватое свечение */
 }
 
 .heart:before, .heart:after {
@@ -38,8 +38,8 @@ html, body {
 
 @keyframes love {
   0% { top: 110%; transform: rotate(-45deg) translateX(0); opacity: 1; }
-  50% { transform: rotate(-45deg) translateX(15px); }
-  100% { top: -20%; transform: rotate(-45deg) translateX(-15px); opacity: 0; }
+  50% { transform: rotate(-45deg) translateX(20px); }
+  100% { top: -20%; transform: rotate(-45deg) translateX(-20px); opacity: 0; }
 }
 
 .message {
@@ -54,7 +54,6 @@ html, body {
   z-index: 1000;
   width: 85%;
   pointer-events: none;
-  text-shadow: 0 2px 10px rgba(255,255,255,0.8);
 }
 
 .next-button {
